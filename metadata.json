@@ -1,0 +1,8 @@
+{
+  "name": "MONO Lab - Minimal Visual Studio",
+  "description": "A modern visual studio focused on branding, visual systems, and AI creative direction. Minimal. Bold. Timeless.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
