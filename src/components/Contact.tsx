@@ -40,10 +40,10 @@ export default function Contact() {
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="bg-bg text-neon px-12 py-12 rounded-full font-bold uppercase tracking-widest text-lg flex flex-col items-center justify-center gap-4 hover:shadow-2xl transition-shadow"
+          className="bg-bg text-neon px-10 py-8 rounded-full font-bold uppercase tracking-widest text-base flex flex-col items-center justify-center gap-3 hover:shadow-2xl transition-shadow"
         >
           <span>Start a Project</span>
-          <ArrowRight size={32} />
+          <ArrowRight size={24} />
         </motion.button>
       </div>
     </section>

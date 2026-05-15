@@ -12,9 +12,10 @@ export default function About() {
         className="relative aspect-video bg-surface overflow-hidden group"
       >
         <img 
-          src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=1974&auto=format&fit=crop" 
+          src="/img/Visual Notes/4.jpg" 
           alt="Abstract Visual" 
           className="w-full h-full object-cover grayscale opacity-60 group-hover:scale-110 transition-transform duration-1000"
+          loading="lazy"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-bg to-transparent opacity-40" />
       </motion.div>

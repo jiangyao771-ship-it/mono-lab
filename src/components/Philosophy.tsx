@@ -41,10 +41,11 @@ export default function Philosophy() {
           className="relative aspect-square md:aspect-[3/4] bg-surface overflow-hidden grayscale"
         >
           <img 
-            src="https://images.unsplash.com/photo-1549490349-8643362247b5?q=80&w=1974&auto=format&fit=crop" 
-            alt="Minimalist design" 
-            className="w-full h-full object-cover opacity-80"
-          />
+          src="/img/Visual Notes/5.jpg" 
+          alt="Minimalist design" 
+          className="w-full h-full object-cover opacity-80"
+          loading="lazy"
+        />
           <div className="absolute inset-0 border-[20px] border-bg" />
         </motion.div>
       </div>

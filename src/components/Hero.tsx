@@ -5,15 +5,19 @@ export default function Hero() {
   return (
     <section id="hero" className="relative min-h-screen flex items-center px-6 md:px-12 pt-20 overflow-hidden">
       {/* Background/Side Visual */}
-      <div className="absolute right-0 top-0 w-full md:w-1/2 h-full bg-[#111] -z-10 flex items-center justify-center overflow-hidden">
-        <motion.div 
+      <div className="absolute right-0 top-0 w-full md:w-1/2 h-full -z-10 flex items-center justify-center overflow-hidden">
+        <motion.div
           initial={{ scale: 1.2, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
-          className="w-full h-full bg-[url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center grayscale contrast-125 opacity-50"
+          className="w-full h-full bg-[url('/img/Visual Notes/2.png')] bg-cover bg-center"
         />
-        {/* Abstract Grid Overlay */}
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff11_1px,transparent_1px),linear-gradient(to_bottom,#ffffff11_1px,transparent_1px)] bg-[size:40px_40px]" />
+        <motion.div
+          initial={{ scale: 1.2, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ duration: 1.5, ease: "easeOut" }}
+          className="absolute inset-0 bg-[url('/img/开头.jpg')] bg-cover bg-center opacity-50"
+        />
       </div>
 
       <div className="max-w-4xl relative z-10">
